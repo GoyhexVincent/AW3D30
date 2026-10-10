@@ -1,0 +1,45 @@
+# =====================================================================
+#  AW3D30 — données téléchargées et livrables volumineux
+#  Ces dossiers sont reproductibles via download_reliefs.py /
+#  generate_contours.py (voir TECHNIQUE.md) : ils ne doivent pas
+#  partir sur GitHub (plusieurs dizaines de Go, limite de 100 Mo/fichier).
+# =====================================================================
+
+# Tuiles AW3D30 téléchargées (ZIP source, caches DSM extraits, missing_tiles.json)
+aw3d30_data/
+
+# MNT fusionnés : <Nom>_mnt.tif + <Nom>_mnt.tif.aux.xml
+reliefs_mnt/
+
+# Courbes de niveau générées : <Nom>/<Nom>_contours*.gpkg et .qml
+courbes_niveau/
+
+# ---------------------------------------------------------------------
+#  Journaux d'exécution (régénérés à chaque passe)
+# ---------------------------------------------------------------------
+*.log
+download_log*.txt
+
+# ---------------------------------------------------------------------
+#  Python
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ---------------------------------------------------------------------
+#  Divers (OS / éditeurs / QGIS)
+# ---------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+*.qgs~
+*.qgz~
