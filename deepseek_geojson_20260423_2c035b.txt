@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camp de Base Sud (Everest)",
+        "location": "Népal",
+        "elevation_meters": 5364,
+        "elevation_feet": 17598,
+        "description": "Le camp de base principal pour l'ascension de l'Everest par l'arête sud-est. C'est le point de départ le plus populaire."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.859444, 28.007222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camp de Base Nord (Everest)",
+        "location": "Tibet, Chine",
+        "elevation_meters": 5150,
+        "elevation_feet": 16900,
+        "description": "Le camp de base principal pour l'ascension de l'Everest par l'arête nord-est, accessible depuis la route depuis Lhassa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.851389, 28.141389]
+      }
+    }
+  ]
+}
